@@ -32,9 +32,5 @@ Akses dashboard data pada komputer lokal dapat dilakukan melalui langkah-langkah
 pip install -r requirements.txt
 ```
 4. Buka file dashboardRentalSepeda.py pada folder dashboard menggunakan code editor yang digunakan (seperti Visual Studio Code), lalu jalankan (Run) program dengan code editor tersebut hingga muncul baris perintah untuk membuka dahsboard.
+![Contoh command line untuk membuka streamlit dashboad](https://raw.githubusercontent.com/davidirfan/TugasProyekDicodingAnalisisData/main/dashboard/address.PNG)
 5. Buka dashboard dengan menyalin baris perintah tersebut dan dijalankan dengan aplikasi Command Prompt. Secara otomatis dashboard data akan terbuka melalui aplikasi web browser.
-```bash
-cd dashboard
-streamlit run dashboard.py
-```
-
