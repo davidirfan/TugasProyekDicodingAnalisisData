@@ -79,7 +79,7 @@ st.header('Dashboard Data Jumlah Penyewa Sepeda Tahun 2011-2012')
 # SETUP SIDEBAR
 with st.sidebar:
     # DISPLAY GAMBAR LOGO
-    st.image("D:\TugasProyekDicodingAnalisisData\dashboard\sepedahan.png")
+    st.image("https://raw.githubusercontent.com/davidirfan/TugasProyekDicodingAnalisisData/main/dashboard/sepedahan.png")
     # DISPLAY RANGE FILTER
     start_date, end_date = st.date_input(
         label='Pilih Rentang Tanggal',
