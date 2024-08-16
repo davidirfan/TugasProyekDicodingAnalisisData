@@ -13,7 +13,7 @@ Tahapan analisis data meliputi :
 6. Membuat visualisasi data.
 7. Merumuskan kesimpulan berdasarkan pernyataan dan analisis data.
 
-Detail proses analisis data dapat diakses melalui file notebook berikut.
+Detail proses analisis data dapat diakses melalui file [notebook berikut](https://github.com/davidirfan/TugasProyekDicodingAnalisisData/blob/9221a69fb568ff08ccdfa19b263ead172825a109/NotebookAnalisisData.ipynb).
 
 ## Pembuatan Dashboard Data.
 Dashboard data dibuat dengan menggunakan modul streamlit pada Python. Detail pembuatan dashboard data dapat diakses melalui file python berikut.
@@ -27,7 +27,14 @@ b. Akses lokal.
 Akses dashboard data pada komputer lokal dapat dilakukan melalui langkah-langkah berikut.
 1. Mengunduh semua file dalam repository ini sebagai satu file zip.
 2. Ekstrak file yang sudah diunduh.
-3. Pasang modul-modul dependency Python yang diperlukan sesuai yang terdapat pada file requirements.txt atau pasang langsung dengan menggunakan baris perintah berikut pada windows Command Prompt mode Administrator
+3. Pasang modul-modul library Python yang diperlukan sesuai yang terdapat pada file requirements.txt atau pasang langsung dengan menggunakan baris perintah berikut pada windows Command Prompt mode Administrator
+```bash
+pip install -r requirements.txt
+```
 4. Buka file dashboardRentalSepeda.py pada folder dashboard menggunakan code editor yang digunakan (seperti Visual Studio Code), lalu jalankan (Run) program dengan code editor tersebut hingga muncul baris perintah untuk membuka dahsboard.
 5. Buka dashboard dengan menyalin baris perintah tersebut dan dijalankan dengan aplikasi Command Prompt. Secara otomatis dashboard data akan terbuka melalui aplikasi web browser.
+```bash
+cd dashboard
+streamlit run dashboard.py
+```
 
