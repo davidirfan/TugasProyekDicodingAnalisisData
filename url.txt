@@ -1,2 +1,5 @@
 Link to Streamlit Dashboard Data
 https://dashboardrentalsepeda.streamlit.app/
+
+Link to GitHub Repository
+https://github.com/davidirfan/TugasProyekDicodingAnalisisData
