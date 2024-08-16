@@ -20,8 +20,14 @@ Dashboard data dibuat dengan menggunakan modul streamlit pada Python. Detail pem
 <br>
 Dashboard data Streamlit dapat diakses melalui dua cara, yaitu melalui streamlit cloud dan akses lokal.
 
-1. Akses streamlit cloud.
-Akses dashboard data pada streamlit cloud dapat melalui link berikut.
+a. Akses streamlit cloud.
+Akses dashboard data pada streamlit cloud dapat melalui link berikut.[Dashboard Data Rental Sepeda](https://dashboardrentalsepeda.streamlit.app/)
 
-2. Akses lokal.
+b. Akses lokal.
+Akses dashboard data pada komputer lokal dapat dilakukan melalui langkah-langkah berikut.
+1. Mengunduh semua file dalam repository ini sebagai satu file zip.
+2. Ekstrak file yang sudah diunduh.
+3. Pasang modul-modul dependency Python yang diperlukan sesuai yang terdapat pada file requirements.txt atau pasang langsung dengan menggunakan baris perintah berikut pada windows Command Prompt mode Administrator
+4. Buka file dashboardRentalSepeda.py pada folder dashboard menggunakan code editor yang digunakan (seperti Visual Studio Code), lalu jalankan (Run) program dengan code editor tersebut hingga muncul baris perintah untuk membuka dahsboard.
+5. Buka dashboard dengan menyalin baris perintah tersebut dan dijalankan dengan aplikasi Command Prompt. Secara otomatis dashboard data akan terbuka melalui aplikasi web browser.
 
